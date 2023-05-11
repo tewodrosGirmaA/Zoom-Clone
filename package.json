@@ -1,0 +1,21 @@
+{
+  "name": "zoom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.16",
+    "peer": "^1.0.0",
+    "serverless-http": "^3.2.0",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
+  }
+}
